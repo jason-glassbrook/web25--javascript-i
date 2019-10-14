@@ -33,8 +33,8 @@
 
 To better understand objects, you really just need to write more of them. The [objects.js](assignments/objects.js) file contains several challenges centered around a theme of interns starting at a new job. The Human Resources team needs information about the new hires. Use your new found object skills to answer vital questions for HR.
 
-- [ ] Read the instructions found within the file carefully to finish the challenges
-- [ ] Don't work on stretch until you have completed all assignments
+- [x] Read the instructions found within the file carefully to finish the challenges
+- [x] Don't work on stretch until you have completed all assignments
 
 ### Arrays
 
