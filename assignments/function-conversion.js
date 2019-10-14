@@ -26,11 +26,20 @@ console.log(result2);
 // };
 // add(1,2);
 
+let add = (param1 , param2) => (param1 + param2) ;
+
+const result3 = add(1,2) ;
+console.log(result3);
+
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
 
+let subtract = (param1 , param2) => (param1 - param2) ;
+
+const result4 = subtract(1,2) ;
+console.log(result4);
 
 // Stretch
 
