@@ -11,10 +11,10 @@
 
 // Example format of an intern object: 1, examples@you.edu, Example, F
 const example = {
-  id: 0,
-  name: "Example",
-  email: "examples@you.edu",
-  gender: "F",
+  id     : 0 ,
+  name   : "Example" ,
+  email  : "examples@you.edu" ,
+  gender : "F" ,
 }
 
 // Write your intern objects here:
@@ -23,27 +23,27 @@ const interns = [
     id     : 1 ,
     name   : 'Mitzi' ,
     gender : 'F' ,
-    email  : 'mmelloy0@psu.edu'
+    email  : 'mmelloy0@psu.edu' ,
   } , {
     id     : 2 ,
     name   : 'Kennan' ,
     gender : 'M' ,
-    email  : 'kdiben1@tinypic.com'
+    email  : 'kdiben1@tinypic.com' ,
   } , {
     id     : 3 ,
     name   : 'Keven' ,
     gender : 'M' ,
-    email  : 'kmummery2@wikimeda.org'
+    email  : 'kmummery2@wikimeda.org' ,
   } , {
     id     : 4 ,
     name   : 'Gannie' ,
     gender : 'M' ,
-    email  : 'gmartinson3@illinis.edu'
+    email  : 'gmartinson3@illinis.edu' ,
   } , {
     id     : 5 ,
     name   : 'Antonietta' ,
     gender : 'F' ,
-    email  : 'adaine5@samsung.com'
+    email  : 'adaine5@samsung.com' ,
   }
 ];
 
@@ -67,16 +67,14 @@ console.log( interns[4].gender );
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
-interns[1].speak = () => {
-  return ("Hello, my name is " + interns[1].name + "!") ;
-}
-console.log(interns[1].speak());
+interns[1].speak = () =>
+  ("Hello, my name is " + interns[1].name + "!") ;
+console.log( interns[1].speak() );
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
-interns[4].multiplyNums = (num1 , num2) => {
-  return (num1 * num2); 
-}
-console.log(interns[4].multiplyNums(3,4));
+interns[4].multiplyNums = (num1 , num2) =>
+  (num1 * num2) ;
+console.log( interns[4].multiplyNums(3,4) );
 
 // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
 
@@ -88,7 +86,9 @@ console.log(interns[4].multiplyNums(3,4));
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
 const i_can_speak = function() {
-  console.log( `Hi! I'm ${this.name}.` );
+  console.log(
+    `Hi! I'm ${this.name}.`
+  );
 };
 
 const parent = {
@@ -122,14 +122,22 @@ const child = parent.child ;
 const grandchild = parent.child.child ;
 
 // Log the parent object's name
-console.log( `parent's name: ${parent.name}` );
+console.log(
+  `parent's name: ${parent.name}`
+);
 
 // Log the child's age
-console.log( `child's age: ${child.age}` );
+console.log(
+  `child's age: ${child.age}`
+);
 
 // Log the name and age of the grandchild
-console.log( `grandchild's name: ${grandchild.name}` );
-console.log( `grandchild's age: ${grandchild.age}` );
+console.log(
+  `grandchild's name: ${grandchild.name}`
+);
+console.log(
+  `grandchild's age: ${grandchild.age}`
+);
 
 // Have the parent speak
 parent.speak();
