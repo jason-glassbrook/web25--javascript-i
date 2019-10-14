@@ -78,12 +78,13 @@ let inventory = [
 let car33 = inventory.find(
   (el) => (el.id === 33)
 ) ;
-console.log(`Car 33 is a ${car33.car_year} ${car33.car_make} ${car33.car_model}`);
+console.log(`Car 33 is a ${car33.car_year} ${car33.car_make} ${car33.car_model}.`);
 
 // ==== Challenge 2 ====
 // The dealer needs the information on the last car in their inventory.  What is the make and model of the last car in the inventory?  Log the make and model into the console.
-let lastCar = 0;
-console.log();
+let last_i = (inventory.length - 1) ;
+let last_car = inventory[last_i];
+console.log(`The last car is a ${last_car.car_year} ${last_car.car_make} ${last_car.car_model}.`);
 
 // ==== Challenge 3 ====
 // The marketing team wants the car models listed alphabetically on the website. Sort all the car model names into alphabetical order and log the results in the console
