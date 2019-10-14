@@ -104,6 +104,13 @@ let old_car_years = car_years.filter( (car_year) => (car_year < old_year) ) ;
 console.log( `There are ${old_car_years.length} cars made before the year ${old_year}.` );
 
 // ==== Challenge 6 ====
-// A buyer is interested in seeing only BMW and Audi cars within the inventory. Return an array that only contains BMW and Audi cars.  Once you have populated the BMWAndAudi array, use JSON.stringify() to show the results of the array in the console.
-let BMWAndAudi = [];
-console.log();
+// A buyer is interested in seeing only BMW and Audi cars within the inventory. Return an array that only contains BMW and Audi cars.  Once you have populated the only_BMWs_and_Audis array, use JSON.stringify() to show the results of the array in the console.
+let only_BMWs_and_Audis = inventory.filter(
+  (car) => {
+    const make = car.car_make ;
+    const is_BMW = (make === 'BMW') ;
+    const is_Audi = (make === 'Audi') ;
+    return (is_BMW || is_Audi) ;
+  }
+);
+console.log( JSON.stringify(only_BMWs_and_Audis , null , 1) );
