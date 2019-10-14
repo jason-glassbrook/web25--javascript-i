@@ -45,7 +45,7 @@ const interns = [
     gender : 'F' ,
     email  : 'adaine5@samsung.com'
   }
-]
+];
 
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
