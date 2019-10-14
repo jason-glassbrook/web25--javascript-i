@@ -40,9 +40,9 @@ To better understand objects, you really just need to write more of them. The [o
 
 The [arrays.js](assignments/arrays.js) assignment takes us through a large data set of used cars. You have been asked to help a used car business with some customer requests based on their inventory. Use for loops and arrays to solve their problems.
 
-- [ ] Utilize the the array `inventory` to complete your challenges
-- [ ] Use any array method you see fit to solve the problem
-- [ ] Don't work on stretch until you have completed all assignments
+- [x] Utilize the the array `inventory` to complete your challenges
+- [x] Use any array method you see fit to solve the problem
+- [x] Don't work on stretch until you have completed all assignments
 
 ### Arrow Function Syntax
 
