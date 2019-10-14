@@ -21,13 +21,13 @@
 
 ## Assignment Description
 
-- [ ] Complete all the exercises as described inside each assignment file.
-- [ ] Use `console.log()` statements to check to see if your code does what it is supposed to do.
-- [ ] To test your `console.log()` statements open up the index.html file found in the assignments folder and use the developer tools to view the console.
+- [x] Complete all the exercises as described inside each assignment file.
+- [x] Use `console.log()` statements to check to see if your code does what it is supposed to do.
+- [x] To test your `console.log()` statements open up the index.html file found in the assignments folder and use the developer tools to view the console.
 
 **Note:**You could also run `node /assignments/<fileName>` and see what prints in your terminal.
 
-- [ ] Once you finish the exercises in each file, commit your code, and push it to your fork.
+- [x] Once you finish the exercises in each file, commit your code, and push it to your fork.
 
 ### Objects
 
@@ -50,5 +50,5 @@ The [arrays.js](assignments/arrays.js) assignment takes us through a large data 
 
 ### Stretch
 
-- [ ] Move on to tomorrow's content and start studying callbacks, write a few of your own to get the hang of it.
-- [ ] Look at array methods like .map(), .reduce(), .filter(). use them on the data in the arrays assignment to accomplish the same things you did with the ES5 for loop.
+- [x] Move on to tomorrow's content and start studying callbacks, write a few of your own to get the hang of it.
+- [x] Look at array methods like .map(), .reduce(), .filter(). use them on the data in the arrays assignment to accomplish the same things you did with the ES5 for loop.
