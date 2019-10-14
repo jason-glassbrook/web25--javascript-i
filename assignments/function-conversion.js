@@ -49,7 +49,7 @@ const subtract = (param1 , param2) => (param1 - param2) ;
 const result4 = subtract(1,2) ;
 console.log(result4);
 
-///==== Stretch ====///
+///==== STRETCH ====///
 
 // const exampleArray = [1,2,3,4];
 // const triple = exampleArray.map(function (num) {
